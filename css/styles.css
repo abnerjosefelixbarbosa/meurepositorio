@@ -2,6 +2,7 @@
 
 :root {
     --bg-gray: #ddd;
+    --text-grey: #4a4a4a;
     --color-primary: #4d41c0;
     --white: #fff; 
 }
@@ -13,6 +14,27 @@
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
+}
+
+#card-list {
+    padding: 40px 0;
+}
+
+.container-card {
+    width: 360px;
+    height: 400px;
+    background-color: var(--white);
+}
+
+.container-card img {
+    width: 100%;
+}
+
+.container-card-description {
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dsmovie-contact-container {
